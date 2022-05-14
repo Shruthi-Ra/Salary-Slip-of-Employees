@@ -10,7 +10,7 @@ struct emp *next;
 } ;
 void main()
 {
-int I,n=0;
+int i,n=0;
 int more_data = 1;
 struct emp e *current_ptr, *head_ptr;
 clrscr() ;
@@ -23,7 +23,6 @@ printf("\nEnter the name : ") ;
 scanf("%s",& current_ptr->name) ;
 printf("\nEnter the basic pay, allowances & deductions : ") ;
 
-32
 scanf("%d %d %d", & current_ptr ->bpay, & current_ptr ->allow, & current_ptr - >ded) ;
 e[i].npay = e[i].bpay + e[i].allow - e[i].ded ; n++;
 printf("Would you like to add another employee? (y/n): ");
